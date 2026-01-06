@@ -4,8 +4,8 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Токен из environment variables (зададим позже на Render)
-TOKEN = os.environ['BOT_TOKEN']
-bot = telebot.TeleBot(TOKEN)
+TOKEN = os.environ['8307766905:AAFZL43MHWZ-yKxfgOsnQtxhXrt2L1DHVS8']
+bot = telebot.TeleBot(8307766905:AAFZL43MHWZ-yKxfgOsnQtxhXrt2L1DHVS8)
 
 app = Flask(__name__)
 
