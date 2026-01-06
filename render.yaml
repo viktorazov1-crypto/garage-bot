@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: garage-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      BOT_TOKEN: твой_токен_здесь_временно_для_теста
